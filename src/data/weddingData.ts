@@ -21,29 +21,20 @@ export const navItems: NavItem[] = [
 export const timelineEvents: TimelineEvent[] = [
   {
     date: '18-05-2021',
-    title: 'First Meeting',
-    description: "We first met at a mutual friend's birthday party in the city.",
+    title: 'The groom is being prepared.',
+    description: "At 9:06 AM, preparations for the groom began at his house.",
   },
   {
     date: '21-05-2025',
-    title: 'First Date',
-    description: 'Our first official date was at a small Italian restaurant downtown.',
+    title: 'Nikha',
+    description: 'The wedding ceremony is scheduled for 11:00 AM at the bride’s residence.',
   },
   {
-    date: 'December 2022',
-    title: 'Moving In Together',
-    description: 'We took the big step of moving in together and creating our first home.',
+    date: '23-05-2025',
+    title: 'Vallima',
+    description: 'The reception will begin at 12:00 PM at Sri Krishna Devaraya Kalyana Mandapam.',
   },
-  {
-    date: 'July 2023',
-    title: 'The Proposal',
-    description: 'James proposed during our vacation in Santorini, overlooking the sunset.',
-  },
-  {
-    date: 'June 2025',
-    title: 'Wedding Day',
-    description: 'We celebrate our love with family and friends on this special day.',
-  },
+  
 ];
 
 // Gallery images
@@ -95,10 +86,10 @@ export const weddingDetails = {
     notes: 'Ceremony will last approximately one hour.',
   },
   reception: {
+    date: '23-05-2025',
     time: '6:00 PM',
-    location: 'The Grand Hotel',
-    address: '456 Luxury Avenue, New York, NY 10001',
-    notes: 'Cocktail hour begins immediately after the ceremony, followed by dinner and dancing.',
+    location: 'Sri Krishna Devaraya Kalyana Mandapam',
+    address: 'Address: Bank Colony, Bhimavaram, Andhra Pradesh 534201',
   },
   accommodation: {
     name: 'The Grand Hotel',

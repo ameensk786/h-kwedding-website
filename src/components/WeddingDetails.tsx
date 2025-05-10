@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Clock, Hotel, Shirt } from 'lucide-react';
+import { MapPin} from 'lucide-react';
 import { weddingDetails } from '../data/weddingData';
 
 const DetailItem: React.FC<{ 
@@ -8,7 +8,7 @@ const DetailItem: React.FC<{
   location: string; 
   address: string; 
   notes?: string;
-  time?: string;
+  time ?: string;
 }> = ({ icon, title, location, address, notes, time }) => (
   <div className="mb-10 last:mb-0 md:mb-0 bg-white rounded-lg shadow-md p-6 transition-transform hover:-translate-y-1 duration-300 flex-1">
     <div className="flex items-start">
@@ -36,31 +36,34 @@ const WeddingDetails: React.FC = () => {
   return (
     <section id="details" className="py-20 bg-wedding-blush bg-opacity-30">
       <div className="container mx-auto px-4">
-        <h2 className="text-wedding-navy font-serif text-4xl text-center mb-4">Wedding Details</h2>
+        <h2 className="text-wedding-navy font-serif text-4xl text-center mb-4">Lunch Details</h2>
         <div className="w-24 h-0.5 bg-wedding-gold mx-auto mb-12"></div>
+
         
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-6 mb-8">
-            <DetailItem 
+            {/* <DetailItem 
               icon={<Clock size={24} />} 
               title="Ceremony" 
               location={weddingDetails.ceremony.location} 
               address={weddingDetails.ceremony.address}
               time={weddingDetails.ceremony.time}
               notes={weddingDetails.ceremony.notes}
-            />
+            /> */}
             
             <DetailItem 
               icon={<MapPin size={24} />} 
-              title="Reception" 
+
+              title={"Rectption 23-05-2025"}
+
+               
               location={weddingDetails.reception.location} 
               address={weddingDetails.reception.address}
               time={weddingDetails.reception.time}
-              notes={weddingDetails.reception.notes}
             />
           </div>
           
-          <div className="grid md:grid-cols-2 gap-6">
+          {/* <div className="grid md:grid-cols-2 gap-6">
             <DetailItem 
               icon={<Hotel size={24} />} 
               title="Accommodation" 
@@ -76,7 +79,7 @@ const WeddingDetails: React.FC = () => {
               address="We kindly request that guests follow the dress code."
               notes="If you have any questions about attire, please don't hesitate to ask."
             />
-          </div>
+          </div> */}
         </div>
         
         <div className="mt-16 text-center">
@@ -86,6 +89,8 @@ const WeddingDetails: React.FC = () => {
             loading="lazy"
             title="Wedding Location Map"
           ></iframe> */}
+                  <h2 className="text-wedding-navy font-serif text-4xl text-center mb-4">Venu Address</h2>
+
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3635.57215233075!2d81.52548047491459!3d16.535126284213938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37d2ba6a8803f3%3A0x49136283b286c833!2sSri%20Krishna%20Devaraya%20Kalyana%20Mandapam!5e1!3m2!1sen!2sin!4v1746868102065!5m2!1sen!2sin" width="600" height="450"   loading="lazy" ></iframe>
         </div>
       </div>

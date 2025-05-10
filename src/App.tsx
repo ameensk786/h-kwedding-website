@@ -5,8 +5,8 @@ import Countdown from './components/Countdown';
 import OurStory from './components/OurStory';
 import WeddingDetails from './components/WeddingDetails';
 import PhotoGallery from './components/PhotoGallery';
-import RSVP from './components/RSVP';
-import Registry from './components/Registry';
+// import RSVP from './components/RSVP';
+// import Registry from './components/Registry';
 import Footer from './components/Footer';
 
 function App() {
@@ -42,8 +42,8 @@ function App() {
       <OurStory />
       <WeddingDetails />
       <PhotoGallery />
-      <RSVP />
-      <Registry />
+      {/* <RSVP /> */}
+      {/* <Registry /> */}
       <Footer />
     </div>
   );
