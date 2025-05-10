@@ -25,7 +25,7 @@ export const timelineEvents: TimelineEvent[] = [
     description: "We first met at a mutual friend's birthday party in the city.",
   },
   {
-    date: 'August 2021',
+    date: '21-05-2025',
     title: 'First Date',
     description: 'Our first official date was at a small Italian restaurant downtown.',
   },
