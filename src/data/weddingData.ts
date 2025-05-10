@@ -49,31 +49,31 @@ export const timelineEvents: TimelineEvent[] = [
 // Gallery images
 export const galleryImages: GalleryImage[] = [
   {
-    src: 'newimages/download.png',
+    src: '/newimages/download.png',
     alt: 'Couple holding hands',
     width: 800,
     height: 600,
   },
   {
-    src: 'newimages/WhatsApp Image 2025-05-10 at 2.12.59 PM.jpeg',
+    src: '/newimages/WhatsApp Image 2025-05-10 at 2.12.59 PM.jpeg',
     alt: 'Engagement photo',
     width: 800,
     height: 600,
   },
   {
-    src: 'newimages/WhatsApp Image 2025-05-10 at 2.13.47 PM.jpeg',
+    src: '/newimages/WhatsApp Image 2025-05-10 at 2.13.47 PM.jpeg',
     alt: 'Romantic sunset moment',
     width: 800,
     height: 600,
   },
   {
-    src: 'newimages/WhatsApp Image 2025-05-10 at 2.14.07 PM.jpeg',
+    src: '/newimages/WhatsApp Image 2025-05-10 at 2.14.07 PM.jpeg',
     alt: 'Date night',
     width: 800,
     height: 600,
   },
   {
-    src: 'newimages/WhatsApp Image 2025-05-10 at 2.25.14 PM.jpeg',
+    src: '/newimages/WhatsApp Image 2025-05-10 at 2.25.14 PM.jpeg',
     alt: 'Vacation memories',
     width: 800,
     height: 600,
